@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HamzahTechTips - Your go-to hub for ICT tutorials, tech reviews, and resources">
+    <title>HamzahTechTips</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 0.75rem 1rem;
+            text-decoration: none;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: #e8f5e9;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .card h3 {
+            margin: 0.5rem 0;
+        }
+        .card p {
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HamzahTechTips</h1>
+        <p>Your go-to hub for ICT tutorials, tech reviews, and resources</p>
+    </header>
+
+    <nav>
+        <a href="#tutorials">Tutorials</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to HamzahTechTips!</h1>
+        <p>Explore our collection of in-depth ICT tutorials, honest tech reviews, and essential resources to boost your skills.</p>
+    </section>
+
+    <section class="content" id="tutorials">
+        <div class="card">
+            <h3>Getting Started with Networking</h3>
+            <p>Learn the basics of computer networking, from LANs to WANs.</p>
+        </div>
+        <div class="card">
+            <h3>Top 5 Programming Languages</h3>
+            <p>Discover which programming languages are trending in 2024.</p>
+        </div>
+        <div class="card">
+            <h3>Cybersecurity Essentials</h3>
+            <p>Protect yourself with these cybersecurity tips and tools.</p>
+        </div>
+    </section>
+
+    <section class="content" id="reviews">
+        <div class="card">
+            <h3>Best Laptops for Developers</h3>
+            <p>Our top picks for performance and value.</p>
+        </div>
+        <div class="card">
+            <h3>Top Cloud Storage Solutions</h3>
+            <p>Compare the best cloud storage options for 2024.</p>
+        </div>
+    </section>
+
+    <section class="content" id="resources">
+        <div class="card">
+            <h3>Download Free Templates</h3>
+            <p>Access free PowerPoint and Excel templates.</p>
+        </div>
+        <div class="card">
+            <h3>Developer Tools</h3>
+            <p>Explore tools to make coding easier and faster.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2024 HamzahTechTips. All rights reserved. | <a href="mailto:info@hamzahtechtips.com" style="color: #4CAF50;">Contact Us</a></p>
+    </footer>
+</body>
+</html>
